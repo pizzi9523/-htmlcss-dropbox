@@ -19,8 +19,31 @@ Common*
     margin: auto;
 }
 
+.container_small{
+    width: 75%;
+    margin: auto;
+}
+
 a , p{
  font-size: 13px;
+}
+
+.column *:not(a,span,ul,i){
+    padding: 0 22px 20px;
+    font-size: 13px;
+}
+
+.container_small .column li{
+    list-style-type: none;
+}
+
+.container_small .column.left ul{
+    padding-bottom: 146px;
+}
+
+.container_small .column.central ul,
+.container_small .column.right ul{
+    padding-bottom: 111px;
 }
 
 /*******************
@@ -40,29 +63,16 @@ Utility*
 /*******************
 Debug*
 ********************/
-
-
-.debug #site_main .section_1{
-    height: 600px;
+.debug .column{
+    width: calc(33.33% - 64px);
+    height: 700px;
+    border: 1px solid black;
+    float: left;
 }
 
-
-.debug .section_1 .container .title{
-    height: 200px;
-    background-color: blue;
+.debug .central{
+    margin: 0 64px;
 }
-
-.debug .section_1 .container .col_left{
-    height: 500px;
-    background-color: blueviolet;
-}
-
-.debug .container .col_right{
-    height: 500px;
-    background-color: rgb(162, 226, 43);
-}
-
-
 
 /*******************
 Header*
@@ -117,6 +127,8 @@ Main*
     margin-top: 91.7px;
 }
 
+
+/*Section_1*/
 #site_main .section_1{
     padding-top: 50px;
     background-color: #B4D0E7;
@@ -152,11 +164,89 @@ Main*
     transform: scale(2);
 }
 
-.container .col_right{
+.section_1 .container .col_right{
     width: 70%;
     float: left;
 }
 
-.container .col_right img{
+.section_1 .container .col_right img{
     width: 100%; 
 }
+
+/*Section_2*/
+#site_main .section_2{
+    margin-top: 170px
+}
+
+.section_2 .container_small .title_2{
+    font-size: 25px;
+}
+
+.section_2 .container_small .fatturazione{
+    padding: 50px 0 30px 0;
+}
+.section_2 .container_small .fatturazione label{
+    padding-right: 10px;
+}
+
+.section_2 .container_small .column{
+    width: calc(33.33% - 64px);
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.section_2 .container_small .column.central{
+    margin: 0 64px;
+}
+
+.section_2 .container_small .column .title_col{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 13px;
+    font-size: 17px;  
+}
+
+.section_2 .container_small .column .plane{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 30px 22px 20px;
+}
+
+.section_2 .container_small .column .price{
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+.section_2 .container_small .column .description,
+.section_2 .container_small .column .funzioni{
+    padding-bottom: 50px;
+}
+
+.section_2 .container_small .column .button.large{
+    padding: 7px 20%;
+}
+
+.section_2 .container_small .column .punti_salienti{
+    font-weight: 900;
+}
+
+.section_2 .container_small .column ul li>i{
+    color: #0061FF;
+}
+
+#special{
+    width: 30px;
+    height: 1px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 22px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
