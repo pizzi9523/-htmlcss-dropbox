@@ -13,14 +13,66 @@ Debug*
     height: 100px;
 }
 .debug nav .navigation{
-    width: 33.33%;
     height: 100%;
     background-color: red;
 }
 
-.debug nav .navigation.left {
+.debug #site_main .section_1{
+    padding-top: 80px;
+    height: 600px;
+    background-color: #B4D0E7;
+}
+
+.debug .container{
+    width: 85%;
+    margin: auto;
+}
+.debug .container .title{
+    height: 200px;
+    background-color: blue;
+}
+
+.debug .container .col_left{
+    height: 500px;
+    width: 33.33%;
+    background-color: blueviolet;
     float: left;
-}.debug nav .navigation.right {
+}
+
+.debug .container .col_right{
+    height: 500px;
+    width: 66.66%;
+    background-color: rgb(162, 226, 43);
+    float: left;
+}
+
+
+
+/*******************
+Header*
+********************/
+#site_header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#site_header nav .navigation{
+    width: 33.33%;
+}
+
+nav .navigation.left {
+    float: left;
+}
+.debug nav .navigation.right {
     float: right;
 }
 
+/*******************
+Main*
+********************/
+#site_main{
+    margin-top: 100px;
+}
