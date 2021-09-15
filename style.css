@@ -512,3 +512,40 @@ Section_6*
 }
 
 
+/*******************
+Footer*
+********************/
+#site_footer .container_full{
+    background-color: black;
+}
+
+.top_footer{  
+    padding: 100px 0;
+}
+
+.col_footer h2{
+    padding: 20px 0;
+}
+
+.top_footer .col_footer{
+    color: white;
+    width: 20%;
+}
+
+.top_footer .col_footer li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+  
+.top_footer .col_footer li a{
+    color: white;
+    text-decoration: none;
+}
+
+.bot_footer .lenguage p{
+    display: inline-block;
+    color: grey;
+    padding: 50px 50px 40px 0;
+    border-top: 1px solid gray;
+}
+
