@@ -479,4 +479,36 @@ Section_5*
     width: 30%;
 }
 
+/*******************
+Section_6*
+********************/  
+.section_6{
+    margin-top: 100px;
+}
+
+.section_6 .title{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.section_6 .row .question{
+    padding: 30px 0;
+    border-top: 1px solid lightgray;
+    font-weight: 900;
+}
+
+.section_6 .row .question p{
+    display: inline-block;
+    padding-right: 460px;
+}
+
+.section_6 .row:last-child{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 100px;
+}
+
+.hide{
+    display: none;
+}
+
 
