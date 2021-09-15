@@ -28,23 +28,9 @@ a , p{
  font-size: 13px;
 }
 
-.column *:not(a,span,ul,i, .content_column){
-    padding: 0 22px 20px;
-    font-size: 13px;
-}
 
-.container_small .column li{
-    list-style-type: none;
-}
 
-.container_small .column.left ul{
-    padding-bottom: 145px;
-}
 
-.container_small .column.central ul,
-.container_small .column.right ul{
-    padding-bottom: 111px;
-}
 
 h4{
     padding: 30px 22px 20px;
@@ -78,33 +64,16 @@ div[class^="col_"]{
     float: left;
 }
 
+img{
+    width: 100%;
+}
+
 
 /*******************
 Debug*
 ********************/
 
 
-.debug .partner{
-    height: 400px;
-    background-color: blue;
-}
-
-.debug .partner .container_small{
-    height: 100%;
-    background-color: yellow;
-}
-
-.debug .partner .container_small .col_left{
-    width: 60%;
-    height: 400px;
-    background-color: green;
-}
-
-.debug .partner .container_small .col_right{
-    width: 40%;
-    height: 400px;
-    background-color: pink; 
-}
 
 /*******************
 Header*
@@ -229,9 +198,27 @@ Section_2*
     margin-bottom: 50px;
 }
 .section_2 .container_small .column{
-    width: calc(33.33% - 64px);
+    width: calc(33.33% - 43px);
     border: 1px solid lightgray;
     float: left;
+}
+
+.column *:not(a,span,ul,i, .content_column){
+    padding: 0 22px 20px;
+    font-size: 13px;
+}
+
+.container_small .column li{
+    list-style-type: none;
+}
+
+.container_small .column.left ul{
+    padding-bottom: 145px;
+}
+
+.container_small .column.central ul,
+.container_small .column.right ul{
+    padding-bottom: 111px;
 }
 
 .section_2 .container_small .column.central{
@@ -356,5 +343,22 @@ Section_3*
 /*******************
 Section_4*
 ********************/
+.section_4 .business .card{
+    margin-top: 50px;
+    width: calc(33.33% - 14px);
+    float: left;
+}
+.section_4 .business .card.col_central{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+
+.business .card p{
+    padding: 25px 58px 40px 0px;
+}
+
+.business .card h4{
+    padding: 0;
+}
 
