@@ -14,15 +14,7 @@ Common*
     clear: both;
 }
 
-.container{
-    width: 85%;
-    margin: auto;
-}
 
-.container_small{
-    width: 75%;
-    margin: auto;
-}
 
 a ,p{
  font-size: 13px;
@@ -45,6 +37,16 @@ img{
 /*******************
 Utility*
 ********************/
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.container_small{
+    width: 75%;
+    margin: auto;
+}
+
 .button{
     display: inline-block;
     color: white;
@@ -82,6 +84,46 @@ div[class^="col_"]{
 /*******************
 Debug*
 ********************/
+.debug .section_5 .big_square{
+    height: 400px;
+    float: left;
+}
+
+.debug .section_5 .col_left,
+.debug .section_5 .col_right{
+    width: 28%;
+    background-color: blue;
+    position: relative;
+}
+.debug .section_5 .col_central{
+    width: 44%;
+    background-color: yellow;
+}
+
+.debug .section_5 .square{
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: rgba(255, 245, 238, 0.438);
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+.debug .section_5 .square.due{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.debug .section_5 .square.quattro{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.debug .section_5 .square img{
+    padding: 0 30px;
+}
 
 
 
@@ -349,12 +391,12 @@ Section_4*
 ********************/
 .section_4 .business .card{
     margin-top: 50px;
-    width: calc(33.33% - 14px);
+    width: calc(33.33% - 43px);
     float: left;
 }
 .section_4 .business .card.col_central{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
 
@@ -375,3 +417,7 @@ Section_4*
 .costumers .more{
     padding: 30px 0;
 }
+
+/*******************
+Section_5*
+********************/   
