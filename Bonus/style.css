@@ -194,6 +194,10 @@ nav .navigation .link ul li{
     background-color: white;  
 }
 
+#tendina li:hover{
+    background-color:lightgrey;
+}
+
 
 nav .navigation .link,
 nav .navigation .link a{
