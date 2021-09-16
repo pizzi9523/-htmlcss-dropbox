@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+body{
+  min-width: 1440px;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*******************
+debug*
+********************/
+
+
+
+
+/*******************
+Main*
+********************/
+
+.start_free .container_full .col_left,
+.start_free .container_full .col_right{
+  width: 50%;
+}
+
+
+
+.start_free .title h1,
+.start_free .prova{
+  font-size: 48px;
+  padding: 25px;
+}
+
+.button.gigante{
+  padding: 20px 67% 20px 20px;
+  font-weight: 700;
+  position: relative;
+  font-size: 16px;
+}
+
+.start_free .prova i{
+  position: absolute;
+  right: 24px;
+}
+
+.start_free .prova p{
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.description_business{
+  background-color: #EEE9E2;
+}
+.description_business p{
+  font-size: 20px;
+  padding: 0 72px 40px;
+  text-align: center;
+}
+
+.container_full .col_right img{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+ .top_col{
+   background-color: #F7F5F2;
+ }
+.image{
+  position: relative;
+  min-height: 466px;
+  background-color: #B4C8E1;
+}
