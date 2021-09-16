@@ -179,8 +179,8 @@ nav .link a.menu:hover ul{
 nav .navigation .link ul{
     position: absolute;
     width: 200px;
-    top: 95px;
-    left: 0%;
+    top: 94px;
+    left: 0;
     line-height: 20px;
     list-style: none;
     transform: translate(-34%);
@@ -428,6 +428,11 @@ Section_3*
     margin: 0 22px;
 }
 
+.section_3 .button.white_b:hover{
+    background-color: rgb(241, 241, 241);
+    filter: opacity(1);
+}
+
 
 /*******************
 Section_4*
@@ -579,8 +584,21 @@ Section_6*
     margin-bottom: 100px;
 }
 
+
+.hide,
+.section_6 .row .question:hover .fas.fa-chevron-up,
+.section_6 .row .question .fas.fa-chevron-down{
+    display: none
+}
+
+.question:hover + .answer .hide,
+.section_6 .row .question:hover .fas.fa-chevron-down{
+    display: block;
+}
+
+
 .hide{
-    display: none;
+    padding: 10px 200px 20px 0px;
 }
 
 
