@@ -643,3 +643,6 @@ Footer*
     vertical-align: sub;
 }
 
+#site_footer a:hover{
+    text-decoration: underline;
+}
