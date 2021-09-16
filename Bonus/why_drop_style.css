@@ -61,7 +61,7 @@ Main*
 }
 .description_business p{
   font-size: 20px;
-  padding: 0 72px 40px;
+  padding: 60px;
   text-align: center;
 }
 
@@ -78,6 +78,6 @@ Main*
  }
 .image{
   position: relative;
-  min-height: 466px;
+  min-height: 546px;
   background-color: #B4C8E1;
 }
