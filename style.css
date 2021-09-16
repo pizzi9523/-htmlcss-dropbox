@@ -8,18 +8,22 @@ Common*
     font-family: 'Open Sans',sans-serif;
 }
 
+body{
+    min-width: 1440px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-a ,p{
+a , p{
  font-size: 13px;
 }
 
 h4{
-    padding: 30px 22px 20px;
+    padding: 30px 36px 20px;
     font-weight: 900;
     font-size: 22px;
 }
@@ -39,6 +43,11 @@ Utility*
 .container_small{
     width: 75%;
     margin: auto;
+}
+
+.container_small .title_2{
+    font-size: 25px;
+    font-weight: 900;
 }
 
 .button{
@@ -62,6 +71,10 @@ Utility*
     color: black;
 }
 
+.button_large{
+    padding: 7px 60px;
+}
+
 a.black_color{
     color: black;
 }
@@ -71,13 +84,13 @@ div[class^="col_"]{
 }
 
 .more a{
-    color: #0061FF;
+    color: #116AFF;
 }
 
-.container_small .title_2{
-    font-size: 25px;
-    font-weight: 900;
+.underline{
+    text-decoration: underline;
 }
+
 
 .bg_green{
     background-color: #A2D39B;
@@ -153,7 +166,6 @@ nav .navigation .logo, nav .navigation .link a{
     padding-right: 30px;
     text-decoration: none;
     color: black;
-    font-size: 13px;
     font-weight: 600;
 }
 
@@ -162,7 +174,7 @@ nav .navigation .logo, nav .navigation .link a{
 Main*
 ********************/
 #site_main{
-    margin-top: 91.7px;
+    margin-top: 93px;
 }
 
 /*******************
@@ -173,9 +185,10 @@ Section_1*
     background-color: #B4D0E7;
 }
 
+/* Soluzione con cotainer fisso
 .section_1 .container.fisso{
     height: 607px;
-}
+} */
 
 .section_1 .container .title h1{
     font-size: 4.5rem;
@@ -207,8 +220,9 @@ Section_1*
 }
 
 .section_1 .container .col_right img{
-    width: 100%; 
+    margin-bottom: -6rem;
 }
+
 
 /*******************
 Section_2*
@@ -232,10 +246,11 @@ Section_2*
     width: calc(33.33% - 43px);
     border: 1px solid lightgray;
     float: left;
+    min-height: 900px;
 }
 
-.column *:not(a,span,ul,i, .content_column){
-    padding: 0 22px 20px;
+.column div, .column li, .column h5{
+    padding: 0 36px 20px;
     font-size: 13px;
 }
 
@@ -243,14 +258,16 @@ Section_2*
     list-style-type: none;
 }
 
-.container_small .column.left ul{
+
+/*impostazione manuale colonne*/
+/* .container_small .column.left ul{
     padding-bottom: 145px;
-}
+}  
 
 .container_small .column.central ul,
 .container_small .column.right ul{
     padding-bottom: 111px;
-}
+} */
 
 .section_2 .container_small .column.central{
     margin: 0 64px;
@@ -266,12 +283,11 @@ Section_2*
 .section_2 .container_small .column .plane{
     font-size: 22px;
     font-weight: 600;
-    padding: 30px 22px 20px;
+    padding: 30px 36px 20px;
 }
 
 .section_2 .container_small .column .price{
     padding-bottom: 15px;
-    font-weight: 900;
 }
 
 .section_2 .container_small .column .description{
@@ -286,7 +302,8 @@ Section_2*
     padding: 7px 20%;
 }
 
-.section_2 .container_small .column .punti_salienti{
+.section_2 .container_small .column .punti_salienti,
+.section_2 .container_small .column .price{
     font-weight: 900;
 }
 
@@ -298,7 +315,7 @@ Section_2*
     width: 30px;
     height: 1px;
     border-bottom: 1px solid lightgray;
-    margin-left: 22px;
+    margin-left: 36px;
     margin-bottom: 40px;
 }
 
@@ -314,7 +331,7 @@ Section_2*
 }
 
 .section_2 .container_small .team .col_left{
-    width: 80%;
+    width: 75%;
 }
 
 .section_2 .container_small .team .col_left h5{
@@ -323,12 +340,12 @@ Section_2*
 
 .section_2 .container_small .team .col_left h5,
 .section_2 .container_small .team .col_left p{
-    padding: 0 22px 24px;
+    padding: 0 36px 24px;
 }
 
 
 .section_2 .container_small .team .col_right{
-    width: 20%;
+    width: 25%;
 }
 
 .section_2 .container_small .team .col_right .button{
@@ -382,6 +399,7 @@ Section_4*
 
 .business .card p{
     padding: 25px 58px 40px 0px;
+    line-height: 18px;
 }
 
 .business .card h4{
@@ -495,11 +513,19 @@ Section_6*
     padding: 30px 0;
     border-top: 1px solid lightgray;
     font-weight: 900;
+    position: relative;
 }
 
-.section_6 .row .question p{
+.section_6 .row .question p,
+.section_6 .row .question i{
     display: inline-block;
-    padding-right: 460px;
+}
+
+.section_6 .row .question i{
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .section_6 .row:last-child{
@@ -547,5 +573,9 @@ Footer*
     color: grey;
     padding: 50px 50px 40px 0;
     border-top: 1px solid gray;
+}
+
+.bot_footer .lenguage .fa-sort-up{
+    vertical-align: sub;
 }
 
