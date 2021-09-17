@@ -16,6 +16,9 @@ body{
   clear: both;
 }
 
+li{
+  list-style-type: none;
+}
 /*******************
 debug*
 ********************/
@@ -109,7 +112,7 @@ Planes*
 .bottom_planes .col_left,
 .bottom_planes .col_right{
   width: 50%;
-  
+  padding-bottom: 72px;  
 }
 
 
@@ -131,10 +134,18 @@ Planes*
   padding: 32px 24px;
   background-color: white;
 }
+
+.bottom_planes .col_left .schedule,
+.bottom_planes .col_left .description{
+  border-right: 1px solid lightgray;
+}
+
+
 .bottom_planes .schedule .top_title{
   font-weight: bold;
   vertical-align: middle;
 }
+
 .bottom_planes .schedule .title{
   padding-top: 24px;
   font-size: 30px;
@@ -167,4 +178,30 @@ Planes*
   font-weight: bold;
 }
 
+.bottom_planes .description{
+  padding: 32px 24px;
+  background-color: #EEE9E2;
+  min-height: 164px;
+}
+
+.bottom_planes .description p{
+  padding-top: 12px;
+}
+
+.bottom_planes .salient{
+  padding: 24px 24px 0 24px;
+}
+
+.bottom_planes .salient .punti_salienti{
+  font-size: 16px;
+}
+
+.bottom_planes .salient li{
+  margin-top: 24px;
+}
+
+.bottom_planes .salient li i{
+  color: #0062ff;
+  margin-right: 3px;
+}
 
