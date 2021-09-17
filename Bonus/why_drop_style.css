@@ -205,3 +205,14 @@ Planes*
   margin-right: 3px;
 }
 
+.planes.team .bottom_planes .col_left{
+  width: 33%;
+}
+
+.planes.team .bottom_planes .col_left .price.special{
+  font-size: 20px;
+}
+
+.planes.team .bottom_planes .col_left .schedule.fix_height{
+  min-height: 352px;
+}
