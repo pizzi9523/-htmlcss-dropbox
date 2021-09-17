@@ -394,12 +394,12 @@ Section_3*
 }
 
 .section_3 .partner .container_small .col_right p{
-    padding: 0px 120px 24px 22px;
+    padding: 0px 120px 24px 36px;
     line-height: 20px;
 }
 
 .section_3 .partner .container_small .col_right .button.white_b{
-    margin: 0 22px;
+    margin: 0 36px;
 }
 
 
