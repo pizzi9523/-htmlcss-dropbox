@@ -22,8 +22,12 @@ body{
     clear: both;
 }
 
-a , p{
+a{
  font-size: 13px;
+}
+
+p{
+    font-size: 14px;
 }
 
 h4{
@@ -61,7 +65,7 @@ Utility*
     padding: 7px 18px;
     text-decoration: none;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .button:hover{
@@ -81,6 +85,11 @@ Utility*
 
 .button_large{
     padding: 7px 60px;
+}
+
+.button_medium{
+    padding: 9px 24px;
+    font-size: 14px;
 }
 
 a.black_color{
@@ -160,6 +169,8 @@ nav .navigation.right {
 
 nav .navigation .logo img{
     vertical-align: middle;
+    width: 114px;
+    height: 24px;
 }
 
 nav .navigation div,
@@ -179,7 +190,7 @@ nav .link a.menu:hover ul{
 nav .navigation .link ul{
     position: absolute;
     width: 200px;
-    top: 94px;
+    top: 71px;
     left: 0;
     line-height: 20px;
     list-style: none;
@@ -201,7 +212,7 @@ nav .navigation .link ul li{
 
 nav .navigation .link,
 nav .navigation .link a{
-    line-height: 93px;
+    line-height: 70px;
 }
 
 nav .navigation .link a:hover{
@@ -224,14 +235,14 @@ nav .navigation .logo, nav .navigation .link a{
 Main*
 ********************/
 #site_main{
-    margin-top: 95px;
+    margin-top: 72px;
 }
 
 /*******************
 Section_1*
 ********************/
 #site_main .section_1{
-    padding-top: 50px;
+    padding-top: 97px;
     background-color: #B4D0E7;
 }
 
@@ -241,8 +252,9 @@ Section_1*
 } */
 
 .section_1 .container .title h1{
-    font-size: 4.5rem;
-    padding-bottom: 35px;
+    font-size: 4.3rem;
+    width: 97%;
+    padding-bottom: 43px;
 }
 
 .section_1 .container .col_left{
@@ -250,19 +262,21 @@ Section_1*
 }
 
 .section_1 .container .col_left a{
-    margin: 20px 0 10px 0 ;
+    margin: 27px 0 10px 0 ;
 }
 
 .section_1 .container .col_left p{
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 .section_1 .container .col_left .annulla{
     margin-bottom: 40px;
+    font-size: 12px;
 }
 
 .section_1 .container .col_left i{
-    transform: scale(2);
+    transform: scale(2.5);
+    margin-left: 10px;
 }
 
 .section_1 .container .col_right{
@@ -271,6 +285,9 @@ Section_1*
 
 .section_1 .container .col_right img{
     margin-bottom: -6rem;
+    margin-left: 27px;
+    width: 754px;
+    height: 437px;
 }
 
 
