@@ -168,6 +168,10 @@ nav .navigation .link a{
     display: inline-block;
 }
 
+nav .navigation .link,
+nav .navigation .link a{
+    line-height: 70px;
+}
 nav .navigation div{
     vertical-align: middle;
 }
