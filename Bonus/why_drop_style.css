@@ -22,19 +22,15 @@ li{
 /*******************
 debug*
 ********************/
-.debug .top_planes{
-  height: 300px;
-  background-color: red;
-}
 
-.debug .bottom_planes .col_left{
-  width: 50%;
+
+.debug .partner .col_left{
+
   height: 600px;
   background-color: green;
 }
 
-.debug .bottom_planes .col_right{
-  width: 50%;
+.debug .partner .col_right{
   height: 600px;
   background-color: blue;
 }
@@ -88,7 +84,7 @@ start_free*
   text-align: center;
 }
 
-.container_full .col_right img{
+.start_free .container_full .col_right img{
   width: 50%;
   position: absolute;
   top: 50%;
@@ -216,3 +212,40 @@ Planes*
 .planes.team .bottom_planes .col_left .schedule.fix_height{
   min-height: 352px;
 }
+
+/*******************
+Partner*
+********************/
+
+.partner .col_left{
+  width: 35%;
+  padding: 72px 80px;
+  background-color: #283750;
+  color: #f7f5f2;
+}
+
+.partner .col_left .didascalia{
+  margin-top: 24px;
+}
+
+.partner .col_left .title{
+  padding-top: 12px;
+}
+
+.partner .col_left .button.gigante.speciale{
+  margin-top: 167px;
+  background-color: #283750;
+  border: 1px solid #f7f5f2;
+  position: relative;
+  
+}
+
+.partner .col_left .button.gigante.speciale i{
+  position: absolute;
+  right: 24px;
+}
+
+.partner .col_right{
+  width: 65%;
+}
+
